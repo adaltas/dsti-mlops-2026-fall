@@ -13,7 +13,7 @@ Continuous Testing is the process of executing automated tests as part of the so
 - Improved user experience
 - Minimization or elimination of business disruption and its costs
 
-[Read more](https://www.ibm.com/cloud/learn/continuous-testing)
+[Read more](https://www.ibm.com/think/topics/continuous-testing)
 
 ## Types of tests
 
@@ -87,7 +87,7 @@ Continuous Testing is the process of executing automated tests as part of the so
 
 ## References
 
-- [What is continuous testing?](https://www.ibm.com/cloud/learn/continuous-testing)
+- [What is continuous testing?](https://www.ibm.com/think/topics/continuous-testing)
 
 ---
 
