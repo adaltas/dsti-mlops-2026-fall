@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+
+=======
+
+> > > > > > > 93dedac (feat: add cicd advanced lab)
 
 # Lab
 
@@ -32,6 +37,11 @@ Test if the Redis server is running:
 
 3. Install **NodeJS**: https://nodejs.org/
 
+<<<<<<< HEAD
+
+=======
+
+> > > > > > > 93dedac (feat: add cicd advanced lab)
 
 ## 1. Use prepared User API application and run tests
 
@@ -65,17 +75,19 @@ Create a REST API GET `user` method that retrieves user information from the dat
 
 > Hint. The source code of the example application in the folder `lab` contains `TODO` comments in the places where you are supposed to make modifications to accomplish these steps.
 
-1) Create `get` user controller:   
-  - Create **2 unit tests** (in the file `lab/test/user.controller.js`):
-    - get a user by username
-    - cannot get a user when it does not exist
-  - Create **the controller method** (in the file `lab/src/controllers/user.js`)
+1. Create `get` user controller:
 
-2) Create GET user REST API method:   
-  - Create **2 API tests** (in the file `lab/test/user.router.js`):
-    - successfully get user
-    - cannot get a user when it does not exist
-  - Create **GET user route** (in the file `lab/src/routes/user.js`)
+- Create **2 unit tests** (in the file `lab/test/user.controller.js`):
+  - get a user by username
+  - cannot get a user when it does not exist
+- Create **the controller method** (in the file `lab/src/controllers/user.js`)
+
+2. Create GET user REST API method:
+
+- Create **2 API tests** (in the file `lab/test/user.router.js`):
+  - successfully get user
+  - cannot get a user when it does not exist
+- Create **GET user route** (in the file `lab/src/routes/user.js`)
 
 ## Bonus tasks
 

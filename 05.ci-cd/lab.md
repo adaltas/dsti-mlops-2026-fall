@@ -40,6 +40,23 @@ Create a pull request to the `master` branch:
 
 5. Explore the GitHub Actions log on GitHub (under the "Actions" tab).
 
+## Part 2. Continuous Delivery (Deployment) with Render and Upstash (Advanced)
+
+1. Create an account on [Render](https://render.com/) and on [Upstash](https://upstash.com/).
+2. Create a Redis database on [Upstash](https://console.upstash.com/redis). Once created, you will see informations such as the Redis database url. You will have to set this URL as `REDIS_URL` environment variable in `Render`
+3. Create a new `web service` on [Render](https://dashboard.render.com/web/new) and configure it. You can follow [this guide](https://render.com/docs/your-first-deploy) to help you.
+
+- In the `build` part :
+  - Configure the `branch` to build and deploy
+  - Configure the `root directory` (the folder containing the `package-lock.json` file)
+  - Configure the `build command`
+- In the `deploy` part : - Configure the `start command` - Retrieve the `deploy hook` to be able to deploy directly from the execution of your github actions ci-cd pipeline, and set it as a secret variable > To configure a secret, see [github actions secrets documentation](https://docs.github.com/fr/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets) > Note that you will not be able to retrieve the `deploy hook` url at the first try while creating the `web service`
+  > Note that the `REDIS_URL` must be defined in your Render environment variables to let Render connect to the Redis database once your application is deployed. Be carefull, you need to set the Redis url starting with `rediss://`, not with `redis://`.
+
+4. Configure the workflow to deploy to Render using [this guide](https://render.com/docs/your-first-deploy).
+5. Practice a regular workflow of the software development life cycle like in Part 2.
+6. Test your public domain on Render.
+
 ## Bonus tasks
 
 1. Integrate Swagger UI using this package - https://www.npmjs.com/package/express-swagger-generator
