@@ -30,8 +30,6 @@ Does your workflow work? Is there any problem with the connection to Redis?
 - [About service containers](https://docs.github.com/en/actions/guides/about-service-containers)
 - [Creating Redis service containers](https://docs.github.com/en/actions/guides/creating-redis-service-containers)
 
-4. Practice a regular workflow of the software development life cycle, for example for completing the [Lab 3 instructions](../03.continuous-testing/lab.md).
-
 Create a pull request to the `master` branch:
 
 - create a new branch and publish it to your remote GitHub repository
