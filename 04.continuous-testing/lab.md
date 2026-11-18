@@ -37,12 +37,6 @@ Test if the Redis server is running:
 
 3. Install **NodeJS**: https://nodejs.org/
 
-<<<<<<< HEAD
-
-=======
-
-> > > > > > > 93dedac (feat: add cicd advanced lab)
-
 ## 1. Use prepared User API application and run tests
 
 Go to [`lab`](lab) folder and explore the project:
