@@ -1,4 +1,3 @@
-
 # Lab
 
 Continuous Integration & Continuous Delivery (Deployment) (CI/CD)
@@ -6,7 +5,6 @@ Continuous Integration & Continuous Delivery (Deployment) (CI/CD)
 ## Objectives
 
 1. Part 1. Continuous Integration with GitHub Actions
-2. Part 2. Continuous Delivery (Deployment) with Heroku
 
 ## Before starting
 
@@ -14,24 +12,25 @@ Before starting configuring CI/CD to a software project, you need to have its re
 
 > Note. Skip the following steps if you already have a repository on GitHub containing the application from the previous [Continuous Testing lab](../04.continuous-testing/lab.md).
 
-1. Create a Git repository for the User API project imported from [../03.continuous-testing/lab/](../03.continuous-testing/lab/), and commit all the files. 
+1. Create a Git repository for the User API project imported from [../03.continuous-testing/lab/](../03.continuous-testing/lab/), and commit all the files.
 2. Create a remote repository on GitHub, link it with the local one, and push the changes.
 
 ## Part 1. Continuous Integration with GitHub Actions
 
 1. Read the [introduction to GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions).
 
-2. Create a CI workflow for the Node.js using this [documentation](https://docs.github.com/en/actions/guides/building-and-testing-nodejs). 
+2. Create a CI workflow for the Node.js using this [documentation](https://docs.github.com/en/actions/guides/building-and-testing-nodejs).
 
 > Note. Don't forget to commit and push your workflow configuration in the `.github/workflows` folder **under the root** of you Git repository.
 
 Does your workflow work? Is there any problem with the connection to Redis?
 
 3. Improve your Workflow to connect Node.js application to Redis using this documentation:
-  - [About service containers](https://docs.github.com/en/actions/guides/about-service-containers)
-  - [Creating Redis service containers](https://docs.github.com/en/actions/guides/creating-redis-service-containers)
 
-4. Practice a regular workflow of the software development life cycle, for example for completing the [Lab 3 instructions](../03.continuous-testing/lab.md). 
+- [About service containers](https://docs.github.com/en/actions/guides/about-service-containers)
+- [Creating Redis service containers](https://docs.github.com/en/actions/guides/creating-redis-service-containers)
+
+4. Practice a regular workflow of the software development life cycle, for example for completing the [Lab 3 instructions](../03.continuous-testing/lab.md).
 
 Create a pull request to the `master` branch:
 
