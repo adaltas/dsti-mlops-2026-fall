@@ -42,7 +42,7 @@ Create a pull request to the `master` branch:
 
 ## Part 2. Continuous Delivery (Deployment) with Render and Upstash (Advanced)
 
-1. Create an account on [Render](https://render.com/) and on [Upstash](https://upstash.com/).
+1. Create an account on [Render](https://render.com/) and on [Upstash](https://upstash.com/). Make sure to select the free plan, and don’t enter any credit card information.
 2. Create a Redis database on [Upstash](https://console.upstash.com/redis). Once created, you will see informations such as the Redis database url. You will have to set this URL as `REDIS_URL` environment variable in `Render`
 3. Create a new `web service` on [Render](https://dashboard.render.com/web/new) and configure it. You can follow [this guide](https://render.com/docs/your-first-deploy) to help you.
 
