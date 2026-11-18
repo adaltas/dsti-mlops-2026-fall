@@ -60,3 +60,7 @@ Create a pull request to the `master` branch:
 ## Bonus tasks
 
 1. Integrate Swagger UI using this package - https://www.npmjs.com/package/express-swagger-generator
+
+## Teardown
+
+Make sure the `web service` is removed in Render, and the Redis database is removed in Upstash.
