@@ -4,10 +4,6 @@ duration: 2h
 
 # Data and Model Testing
 
-## Extension of 'Garbage in, garbage out' to ML systems
-
-![GIGO for ML](./assets/gigo.png)
-
 ## Roadmap
 
 ![Roadmap](./assets/roadmap_1.png)
@@ -45,7 +41,7 @@ duration: 2h
 - Evaluate the capabilities of generalization (usual practice):
   - Cross-validation
   - Choose appropriate metric
-- Good practice: split your dataset on **3 sets** (not on 2 which you always see in class!)
+- Good practice: split your dataset on **3 sets** 
 
 ![Data Split](./assets/data_split.jpg)
 
